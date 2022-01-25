@@ -12,9 +12,9 @@ public class DesafioCalculadora {
 		System.out.print("Entre com o segundo Valor: ");
 		double inputTwo = scan.nextDouble();
 		System.out.print("Entre com o Operando EX: * , / , + , - : ");
-		String operando = scan.next();
+		String operando =	 scan.next();
 		scan.close();
-
+		
 		double resultado;
 
 		resultado = operando.equals("+") ? inputOne + inputTwo
