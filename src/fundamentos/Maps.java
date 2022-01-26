@@ -36,7 +36,7 @@ public class Maps {
 
 		}
 		
-		// percorre os valores
+		// percorre os valores e chaves
 		for (Entry<Integer , String > entry: usuarios.entrySet()) {
 			System.out.println(entry);
 			
